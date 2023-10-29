@@ -1,0 +1,32 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures full height background */
+  overflow-x: hidden; /* Prevents any accidental horizontal scrolling */
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* For tablets and medium-sized devices */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px; /* Reduce padding slightly for medium screens */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .container {
+    margin: 20px 10px; /* Reduce top margin and give a slight side margin */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+}

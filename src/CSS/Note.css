@@ -1,0 +1,54 @@
+.note {
+  background-color: #e0e7187c;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.note h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.note p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+button {
+  background-color: #f28b82;
+  color: white;
+  border: none;
+  padding: 8px 20px; /* Increase padding for better touch target */
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  font-size: 1rem; /* Added base font size */
+}
+
+button:hover {
+  background-color: #d77375;
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .note {
+    padding: 15px; /* Reduce padding for smaller screens */
+    margin: 10px 0; /* Reduce margin for smaller screens */
+  }
+
+  .note h1 {
+    font-size: 1.2em; /* Adjust font size for mobile */
+  }
+
+  .note p {
+    font-size: 1em; /* Adjust font size for mobile */
+  }
+
+  button {
+    padding: 5px 15px; /* Reduce button padding for mobile */
+    font-size: 0.9rem; /* Adjust button font size */
+  }
+}

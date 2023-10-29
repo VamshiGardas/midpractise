@@ -1,0 +1,25 @@
+footer {
+  background-color: #1360ad; /* Changed to a neutral gray */
+  color: white;
+  text-align: center;
+  padding: 1px 0; /* Increased padding for better spacing */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 1rem; /* Setting a base font size */
+  transition: all 0.3s ease; /* Smooth transition for any changes */
+}
+
+footer p {
+  margin: 0;
+  font-size: inherit; /* Inherit font size from parent */
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  footer {
+    font-size: 0.8rem; /* Reduce font size for smaller screens */
+    position: static; /* Unfix the footer on smaller screens */
+    padding: 3px 0; /* Adjust padding for smaller screens */
+  }
+}

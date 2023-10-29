@@ -1,0 +1,63 @@
+.create-area {
+  background-color: rgb(141, 141, 194);
+  padding: 20px;
+  border-radius: 7px;
+  margin: 20px 0;
+  max-width: 800px; /* Set a maximum width for larger screens */
+  margin: 20px auto; /* Center the create area on larger screens */
+}
+
+.input-title,
+.input-content {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid rgb(158, 115, 115);
+  border-radius: 5px;
+  outline: none;
+}
+
+.add-btn {
+  display: block;
+  margin: 15px auto;
+  padding: 12px 25px;
+  background-color: #458f0e;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #d77375;
+}
+
+/* For devices with a maximum width of 768px (common tablet breakpoint) */
+@media (max-width: 768px) {
+  .create-area {
+    padding: 15px;
+  }
+
+  .input-title,
+  .input-content {
+    padding: 10px;
+  }
+
+  .add-btn {
+    margin: 12px auto;
+    padding: 10px 20px;
+  }
+}
+
+/* For devices with a maximum width of 480px (common mobile breakpoint) */
+@media (max-width: 480px) {
+  .input-title,
+  .input-content {
+    padding: 8px;
+    font-size: 14px; /* Adjusting font size for smaller screens */
+  }
+
+  .add-btn {
+    padding: 8px 15px;
+  }
+}
